@@ -1,0 +1,87 @@
+.navbar-brand {
+  font-family: "Dancing Script", cursive;
+  font-weight: bold;
+  font-size: 32px !important;
+  color: #ffffff !important;
+}
+
+.Nave-colleps {
+  /* background-color: #adb5bd; */
+  padding: 5px 20px;
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 5px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.Nave-colleps ul li a {
+  color: white;
+  margin: 0 10px;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.nav-link{
+  color: #ffbe33;
+}
+
+
+ .nav-link:hover {
+  /* color: var(--bs-nav-link-hover-color); */
+  color: #ffbe33 !important;
+}
+
+.header-last-div {
+  display: flex !important;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center !important;
+}
+.header-last-div a {
+  margin-right: 2vw;
+  /* width: 25% !important; */
+}
+
+.Order-button {
+  display: inline-block;
+  padding: 8px 30px;
+  background-color: #ffbe33;
+  border-radius: 45px;
+
+  border: none;
+}
+.btm-p {
+  margin: 0 10px;
+  color: #ffffff;
+}
+
+.Order-button:hover {
+  opacity: 0.5;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.nav-mgap {
+  margin-right: 10%;
+  margin-left: auto !important;
+}
+
+.header_section {
+  background-color: transparent;
+}
+
+.abc {
+  width: 100%;
+  border: 1px splid black;
+}
+.svg-inline--fa {
+  display: inline-block;
+  font-size: inherit;
+  height: 1em;
+  overflow: visible;
+  vertical-align: -0.125em;
+  color: #fff !important;
+}
+

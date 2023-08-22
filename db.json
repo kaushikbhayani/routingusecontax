@@ -1,0 +1,36 @@
+{
+  "users": [
+    {
+      "email": "kaushik@dcoded.in",
+      "password": "Kaushik@26",
+      "imageName": "Sgarbhai.png",
+      "id": 1
+    }
+  ],
+  "images": [
+    {
+      "heading": "Tasty Sunday",
+      "discount": "60%",
+      "imageName": "about-img.png",
+      "id": 8
+    },
+    {
+      "heading": "Fryday",
+      "discount": "60%",
+      "imageName": "f6.png",
+      "id": 9
+    },
+    {
+      "heading": "xyz",
+      "discount": "30%",
+      "imageName": "o1.jpg",
+      "id": 10
+    },
+    {
+      "heading": "",
+      "discount": "",
+      "imageName": "",
+      "id": 11
+    }
+  ]
+}

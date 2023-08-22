@@ -1,0 +1,644 @@
+/*======================================= section -1============================================================ */
+/* section -1 */
+/* Hero Style  start*/
+.bg_style {
+  background-image: url(../images/hero-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: contain;
+  background-position-y: -155px;
+}
+
+.Hdr {
+  position: absolute;
+  width: 100%;
+  z-index: 10;
+}
+
+/* hero Slider style */
+.dddd .carousel {
+  position: relative;
+  padding: 309px 0;
+  z-index: 1;
+}
+
+.M_A_I_N a.carousel-control-prev {
+  position: absolute;
+  top: 78%;
+  z-index: 1;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+  background: 0 0;
+  border: 0;
+  opacity: 1;
+  background-color: chartreuse;
+}
+
+.M_A_I_N a.carousel-control-prev:hover {
+  background-color: #071a52;
+}
+
+.M_A_I_N a.carousel-control-next {
+  position: absolute;
+  left: 58px;
+  top: 78%;
+  z-index: 1;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+  background: 0 0;
+  border: 0;
+  opacity: 1;
+  background-color: chartreuse;
+  transition: opacity 0.15s ease;
+}
+
+._STYLE_ {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin: 90px 0px -138px 0px;
+  margin-left: 15px;
+}
+
+.layout_padding {
+  padding-top: 115px;
+  padding-bottom: 180px;
+}
+
+.dddd .carousel-indicators [data-bs-target] {
+  box-sizing: content-box;
+  flex: 0 1 auto;
+  width: 12px;
+  height: 12px;
+  border-radius: 100%;
+  padding: 0;
+  margin-right: 3px;
+  margin-left: 3px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  opacity: 1;
+  transition: opacity 0.6s ease;
+}
+
+.dddd .carousel-indicators .active {
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  margin-top: -4px;
+  opacity: 1;
+  background-color: #ffbe33;
+}
+
+.dddd .carousel-indicators {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin-right: 15% !important;
+  margin-bottom: 19rem !important;
+  margin-left: -50% !important;
+  list-style: none;
+}
+
+.detail-box h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+  font-family: "Dancing Script", cursive;
+}
+
+.carousel-inner {
+  position: relative;
+  top: -90px;
+  width: 100%;
+  overflow: hidden;
+}
+/* hero Slider style */
+
+/* Hero Style  End*/
+/*======================================= section -1 -End============================================================ */
+/*======================================= section -2-start============================================================ */
+/* Offes Style Start */
+.box-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-top: 45px;
+  border-radius: 5px;
+  padding: 20px 15px;
+  background-color: #222831;
+  color: #ffffff;
+}
+
+.box-1 .img-box {
+  width: 175px;
+  min-width: 175px;
+  height: 175px;
+  margin-right: 15px;
+  position: relative;
+  -webkit-transition: all 0.1 0.5s;
+  transition: all 0.1 0.5s;
+  border-radius: 100%;
+  border: 5px solid #ffbe33;
+  overflow: hidden;
+}
+
+.box-1 .img-box img {
+  width: 100%;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.box-1:hover .img-box img {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.box-1 h5 {
+  font-size: 24px;
+  margin: 0;
+  font-family: "Dancing Script", cursive;
+}
+
+.box-1 .detail-box h6 {
+  font-family: "Dancing Script", cursive;
+  margin: 10px 0;
+}
+
+.box-1 .detail-box h6 span {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.box-1.detail-box a {
+  display: inline-block;
+  padding: 10px 30px;
+  background-color: #ffbe33;
+  color: #ffffff;
+  border-radius: 45px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  border: none;
+}
+
+/* Offer Style End */
+
+/*======================================= section -2-End============================================================ */
+/*======================================= section -3-start============================================================ */
+/*  manu Start */
+
+.food_section .filters_menu {
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  list-style-type: none;
+  margin: 45px 0 20px 0;
+}
+
+.food_section .filters_menu li {
+  padding: 7px 25px;
+  cursor: pointer;
+  border-radius: 25px;
+}
+
+.food_section .filters_menu li.active {
+  background-color: #222831;
+  color: #ffffff;
+}
+
+.food_section .box {
+  position: relative;
+  margin-top: 25px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  color: #ffffff;
+  border-radius: 15px;
+  overflow: hidden;
+  background: linear-gradient(to bottom, #f1f2f3 25px, #222831 25px);
+}
+
+.food_section .box .img-box {
+  background: #f1f2f3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 215px;
+  border-radius: 0 0 0 45px;
+  margin: -1px;
+  padding: 25px;
+}
+
+.food_section .box .img-box img {
+  max-width: 100%;
+  max-height: 145px;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.food_section .box .detail-box {
+  padding: 25px;
+}
+
+.food_section .box .detail-box h5 {
+  font-weight: 600;
+}
+
+.food_section .box .detail-box p {
+  font-size: 15px;
+}
+
+.food_section .box .detail-box h6 {
+  margin-top: 10px;
+}
+
+.food_section .box .options {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.food_section .box .options a {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  background: #ffbe33;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.food_section .box .options a svg {
+  width: 18px;
+  height: auto;
+  fill: #ffffff;
+}
+
+.food_section .box:hover .img-box img {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.food_section .btn-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-top: 45px;
+}
+
+.food_section .btn-box a {
+  display: inline-block;
+  padding: 10px 55px;
+  background-color: #ffbe33;
+  color: #ffffff;
+  border-radius: 45px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  border: none;
+}
+
+.food_section .btn-box a:hover {
+  background-color: #e69c00;
+}
+
+.about_section {
+  background: #222831;
+  color: #ffffff;
+}
+
+.about_section .row {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.about_section .img-box {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.about_section .img-box img {
+  width: 100%;
+  max-width: 445px;
+  position: relative;
+  z-index: 2;
+}
+
+.about_section .detail-box p {
+  margin-top: 15px;
+}
+
+.about_section .detail-box a {
+  display: inline-block;
+  padding: 10px 45px;
+  background-color: #ffbe33;
+  color: #ffffff;
+  border-radius: 45px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  border: none;
+  margin-top: 15px;
+}
+
+.heading_container.heading_center {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 10vh;
+}
+
+.heading_center h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-family: "Dancing Script", cursive;
+
+  margin: 0;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+  border-color: var(--bs-nav-tabs-link-active-border-color);
+  background-color: #222831 !important;
+  color: #ffffff !important;
+}
+
+.nav-tabs .nav-link {
+  border-radius: 50px !important;
+  padding: 7px 25px !important;
+  cursor: pointer !important;
+  border-radius: 25px !important;
+}
+/* manu End */
+
+/*======================================= section -3-End============================================================ */
+/*======================================= section -4-start============================================================ */
+/* DetaileScreen Style Start  */
+/* .about_section .img-box img {
+  width: 100%;
+  max-width: 445px;
+  position: relative;
+  z-index: 2;
+}
+
+.about_section .detail-box p {
+  margin-top: 15px;
+}
+
+.about_section .detail-box a {
+  display: inline-block;
+  padding: 10px 45px;
+  background-color: #ffbe33;
+  color: #ffffff;
+  border-radius: 45px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  border: none;
+  margin-top: 15px;
+} */
+
+/* DetaileScreen Style End  */
+
+/*======================================= section -4-End============================================================ */
+/*======================================= section -5-start============================================================ */
+/* bookTableScreen Style start */
+.heading_container {
+  margin-bottom: 45px;
+}
+.heading_container h2 {
+  position: relative;
+  margin-bottom: 0;
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-family: "Dancing Script", cursive;
+}
+
+.form-group {
+  margin-bottom: 25px;
+}
+
+.form-group input {
+  width: 100%;
+  border: none;
+  height: 50px;
+  padding-left: 25px;
+  background-color: transparent;
+  border: 1px solid #ccc;
+  outline: none;
+  color: #000000;
+  border-radius: 5px;
+  margin-top: 2vh;
+}
+/* .HowMany {
+  width: 100%;
+  border: none;
+  height: 50px;
+  padding-left: 25px;
+  background-color: transparent;
+  border: 1px solid red;
+  outline: none;
+  color: #000000;
+  border-radius: 5px;
+  margin-top: 2vh;
+} */
+
+.book_section .form_container button:hover {
+  background-color: #e69c00;
+}
+
+.book_section .form_container button {
+  margin-top: 15px;
+  border: none;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 10px 55px;
+  background-color: #ffbe33;
+  color: #ffffff;
+  border-radius: 45px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  border: none;
+}
+
+.HowMany {
+  width: 100%;
+  border: none;
+  height: 50px;
+  padding-left: 25px;
+  background-color: transparent;
+  border: 1px solid #ccc;
+  outline: none;
+  color: #000000;
+  border-radius: 5px;
+  margin-top: 2vh;
+}
+
+/* bookTableScreen Style End */
+
+/*======================================= section -5-End============================================================ */
+/* ClientCarousel start */
+
+/* .ObjectStyle {
+  background-color: black;
+} */
+
+.div-3 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+
+.div-chld {
+  /* background-color: aquamarine; */
+  padding: 0px 10px 0px 10px;
+}
+
+.tringle {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 15px 15px 15px;
+  border-color: transparent transparent #ffbe33 transparent;
+  margin-left: 42px;
+  margin-bottom: -2px;
+}
+
+.img-1-div {
+  border: 4px solid #ffbe33;
+  height: 115px;
+  width: 115px;
+  border-radius: 100%;
+  overflow: hidden;
+}
+.imageStyle {
+  width: auto;
+  height: auto;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.Detaile-Div {
+  border-radius: 5px;
+  background-color: #222831;
+  color: #fff;
+}
+
+.Detaile-Div h6 {
+  font-weight: 600;
+  font-size: 20px;
+  margin: 15px 0 5px 0;
+}
+.carousel-control-next,
+.carousel-control-prev {
+  position: absolute;
+  top: 90% !important;
+  bottom: -28% !important;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px !important;
+  height: 40px;
+  padding: 10px;
+  color: #fff;
+  text-align: center;
+  background: 0 0;
+  border: 0;
+  background-color: #ffbe33 !important;
+  opacity: 0.5;
+  transition: opacity 0.15s ease;
+  border-radius: 100%;
+  padding: 10px;
+}
+
+.carousel-control-next {
+  right: 46% !important;
+}
+
+.carousel-control-prev {
+  left: 46% !important;
+}
+
+.client-HeadingStyle {
+  font-family: "Dancing Script", cursive;
+  margin: 8vh 0 20vh 0;
+
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.carousel-control-next-icon {
+  height: 24px !important;
+}
+
+.carousel-control-prev-icon {
+  height: 24px !important;
+}
+
+/* ClientCarousel End */
+
+/*======================================= section -6-Start============================================================ */
+/* HdrStyle Start */
+.HdrStyle {
+  background-image: url(../images/hero-bg.jpg);
+  background-position-y: 10px;
+}
+/* HdrStyle End */
+/*======================================= section -6-End============================================================ */

@@ -1,0 +1,108 @@
+.h1-style {
+  font-size: 72px;
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.p-Style {
+  color: aliceblue;
+  font-size: medium;
+}
+
+.objct-Center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Login-Buttone-Style {
+  display: flex !important;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-content: center;
+  align-items: center !important;
+}
+
+.CreateAccount-Buttone-Style {
+  display: flex !important;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center !important;
+}
+
+.row-RowStyle {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(0 * var(--bs-gutter-x));
+  margin-left: calc(-0.5 * var(--bs-gutter-x));
+}
+
+.Loger-Name-Style {
+  color: #edf2f4;
+  background: #343a40;
+  font-family: " sans-serif";
+  font-weight: 600;
+}
+h1.Loger-Name-Style svg {
+  color: red;
+  font-size: 3vw;
+}
+
+/* img uplod */
+#opacity {
+  opacity: 0;
+}
+
+#rgba {
+  color: rgba(0, 0, 0, 0);
+}
+.btn-upload {
+  appearance: auto;
+  writing-mode: horizontal-tb !important;
+  text-rendering: auto;
+  color: buttontext;
+  letter-spacing: normal;
+  word-spacing: normal;
+  line-height: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: center;
+  align-items: flex-start;
+  cursor: default;
+  box-sizing: border-box;
+  background-color: buttonface;
+  margin: 0em;
+  padding: 1px 6px;
+  border-width: 2px;
+  border-style: outset;
+  border-color: buttonborder;
+  border-image: initial;
+}
+
+.ActionStyle {
+  display: flex !important;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: center;
+}
+
+/* =============================admin panal Style Start============================================================ */
+
+/* =============================admin panal Style End============================================================ */
+
+/* =============================Remove Style Start============================================================ */
+.image_update{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
